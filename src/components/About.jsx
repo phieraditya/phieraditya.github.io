@@ -8,30 +8,35 @@ const About = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            About
-          </p>
+          <p className="text-4xl font-bold  text-blue-500">Me, Myself and I</p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
-          error laudantium tempore possimus, accusantium harum quaerat
-          voluptates. Hic magni mollitia modi consequuntur nesciunt eius nemo,
-          reiciendis quibusdam nobis corrupti incidunt consequatur obcaecati
-          minus similique ullam libero blanditiis neque ducimus omnis aliquam?
-          Magni sunt asperiores distinctio excepturi at ut inventore eum?
+        <p className="text-xl mt-16">
+          I am a Front-End Web Developer located in Indonesia. I have a serious
+          passion for the betterment of user experiences.
         </p>
 
         <br />
 
-        <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga beatae
-          aut reiciendis inventore voluptate ex quas labore obcaecati alias
-          accusamus velit, sequi iste necessitatibus nemo libero nobis
-          perferendis quibusdam adipisci voluptatibus, dolores nisi illum
-          numquam. Reiciendis odit eum sunt dolor. Nemo, exercitationem! Vel
-          assumenda quas ipsum molestias iste error! Veniam.
+        <p className="text-xl mt-2">
+          I am a well-organized, problem solver, and independent employee with
+          great attention to detail. I thrive in an environment that keeps me
+          curious and push to keep learning. I like going out to nature and
+          doing outdoor activities as much as I enjoy being at home.
         </p>
+
+        <br />
+
+        <p className="text-xl mt-2">
+          Interested in the entire front-end spectrum and working on projects
+          with positive people.
+        </p>
+
+        <br />
+
+        <a href="/#" className="text-xl mt-2 text-blue-500">
+          Let's make something special.
+        </a>
       </div>
     </div>
   );
