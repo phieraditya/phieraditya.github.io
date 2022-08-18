@@ -21,7 +21,7 @@ const Portfolio = () => {
       name="portfolio"
       className="bg-gradient-to-b from-black to-gray-800 text-white md:h-screen"
     >
-      <div className="max-w-screen-lg px-4 flex flex-col justify-center h-full">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold  text-blue-500">Portfolio</p>
           <p className="py-6">Check out some of my work right here</p>
@@ -32,10 +32,10 @@ const Portfolio = () => {
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
-                alt=""
+                alt="Webpage"
                 className="rounded-md duration-200 hover:scale-105"
               />
-              <div className="flex items-center justify-center">
+              <div className="max-w-screen-lg mx-auto p-4 flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200">
                   Demo
                 </button>
