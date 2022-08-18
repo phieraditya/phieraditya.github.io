@@ -12,37 +12,31 @@ const Skills = () => {
       id: 1,
       src: html,
       title: 'HTML',
-      style: 'shadow-orange-500',
     },
     {
       id: 2,
       src: css,
       title: 'CSS',
-      style: 'shadow-blue-500',
     },
     {
       id: 3,
       src: javascript,
       title: 'Javascript',
-      style: 'shadow-yellow-500',
     },
     {
       id: 4,
       src: bootstrap,
       title: 'Bootstrap',
-      style: 'shadow-purple-400',
     },
     {
       id: 5,
       src: tailwind,
       title: 'Tailwind CSS',
-      style: 'shadow-sky-400',
     },
     {
       id: 6,
       src: reactIcon,
       title: 'React JS',
-      style: 'shadow-sky-400',
     },
   ];
   return (
@@ -60,10 +54,7 @@ const Skills = () => {
 
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 text-center px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
-            <div
-              key={id}
-              className={`shadow-md rounded-lg hover:scale-105 duration-500 ${style}`}
-            >
+            <div key={id} className="hover:scale-105 duration-500">
               <img src={src} alt={title} className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>
