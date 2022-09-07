@@ -11,8 +11,11 @@ const Contact = () => {
       "
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold  text-blue-500">Contact</p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <p className="text-4xl font-bold  text-blue-500">Contact me</p>
+          <p className="py-6">
+            Want to work together or have any questions? <br></br>
+            Don’t hesitate to use the form.
+          </p>
         </div>
 
         <div className="flex justify-center">
@@ -24,24 +27,30 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              placeholder="Enter your name"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              placeholder="Name"
+              className="mb-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="text"
               name="email"
-              placeholder="Enter your email address"
-              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              placeholder="Email"
+              className="mb-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+            />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Subject"
+              className="mb-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <textarea
               name="message"
               rows="10"
-              placeholder="Enter your message"
+              placeholder="Message"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
             <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
-              Let's talk
+              Send message!
             </button>
           </form>
         </div>
