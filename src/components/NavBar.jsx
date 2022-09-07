@@ -15,9 +15,9 @@ const NavBar = () => {
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
-      <div>
+      <Link to="home" smooth duration={500} className="cursor-pointer">
         <h1 className="font-signature text-5xl ml-2">Phie</h1>
-      </div>
+      </Link>
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
