@@ -11,3 +11,4 @@ Other ingredients are:
 - [Tailwind CSS](https://tailwindcss.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [React Smooth Scroll](https://github.com/fisshy/react-scroll)
+- [Getform.io](https://getform.io/)
