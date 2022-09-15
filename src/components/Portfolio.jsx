@@ -1,10 +1,10 @@
 import React from 'react';
-import pf1 from '../assets/portfolio/portfolio-1.jpeg';
-import pf2 from '../assets/portfolio/portfolio-2.jpeg';
-import pf3 from '../assets/portfolio/portfolio-3.jpeg';
-import pf4 from '../assets/portfolio/portfolio-4.jpeg';
-import pf5 from '../assets/portfolio/portfolio-5.jpeg';
-import pf6 from '../assets/portfolio/portfolio-6.jpeg';
+import pf1 from '../assets/portfolio/portfolio-1.png';
+import pf2 from '../assets/portfolio/portfolio-2.png';
+import pf3 from '../assets/portfolio/portfolio-3.png';
+import pf4 from '../assets/portfolio/portfolio-4.png';
+import pf5 from '../assets/portfolio/portfolio-5.png';
+import pf6 from '../assets/portfolio/portfolio-6.png';
 
 const Portfolio = () => {
   const portfolios = [
