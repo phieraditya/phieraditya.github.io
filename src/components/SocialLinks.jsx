@@ -1,7 +1,7 @@
-import React from 'react';
-import { FaGithub } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import React from 'react'
+import { FaGithub } from 'react-icons/fa'
+import { HiOutlineMail } from 'react-icons/hi'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const SocialLinks = () => {
   const links = [
@@ -31,11 +31,11 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: '/resume.pdf',
+      href: '/resume_devinoraya_radityapalma.pdf',
       style: 'rounded-br-md',
       download: true,
     },
-  ];
+  ]
 
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed opacity-75">
@@ -62,7 +62,7 @@ const SocialLinks = () => {
         ))}
       </ul>
     </div>
-  );
-};
+  )
+}
 
-export default SocialLinks;
+export default SocialLinks
