@@ -1,10 +1,21 @@
-import React from 'react';
-import html from '../assets/techstack/html.png';
-import css from '../assets/techstack/css.png';
-import javascript from '../assets/techstack/javascript.png';
-import bootstrap from '../assets/techstack/bootstrap.png';
-import tailwind from '../assets/techstack/tailwind.png';
-import reactIcon from '../assets/techstack/react.png';
+import React from 'react'
+
+import html from '../assets/techstack/html.png'
+import css from '../assets/techstack/css.png'
+import javascript from '../assets/techstack/javascript.png'
+import bootstrap from '../assets/techstack/bootstrap.png'
+import tailwind from '../assets/techstack/tailwind.png'
+import reactIcon from '../assets/techstack/react.png'
+import mongodb from '../assets/techstack/mongodb.png'
+import mongoose from '../assets/techstack/mongoose.png'
+import postman from '../assets/techstack/postman.png'
+import expressIcon from '../assets/techstack/express.png'
+import nodejs from '../assets/techstack/nodejs.png'
+import npm from '../assets/techstack/npm.png'
+import git from '../assets/techstack/git.png'
+import github from '../assets/techstack/github.png'
+
+//MongoDB, Mongoose, Postman, Express.js, Node.js, NPM, Git, GitHub
 
 const Skills = () => {
   const techs = [
@@ -38,7 +49,48 @@ const Skills = () => {
       src: reactIcon,
       title: 'React JS',
     },
-  ];
+    {
+      id: 7,
+      src: mongodb,
+      title: 'MongoDB',
+    },
+    {
+      id: 8,
+      src: mongoose,
+      title: 'Mongoose',
+    },
+    {
+      id: 9,
+      src: postman,
+      title: 'Postman',
+    },
+    {
+      id: 10,
+      src: expressIcon,
+      title: 'Express',
+    },
+    {
+      id: 11,
+      src: nodejs,
+      title: 'Node.js',
+    },
+    {
+      id: 12,
+      src: npm,
+      title: 'npm',
+    },
+    {
+      id: 13,
+      src: git,
+      title: 'Git',
+    },
+    {
+      id: 14,
+      src: github,
+      title: 'GitHub',
+    },
+  ]
+
   return (
     <div
       name="skills"
@@ -62,7 +114,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills
