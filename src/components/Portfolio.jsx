@@ -1,12 +1,12 @@
-import React from 'react';
-import { FaGithub } from 'react-icons/fa';
-import { TbWorld } from 'react-icons/tb';
-import pf1 from '../assets/portfolio/portfolio-1.png';
-import pf2 from '../assets/portfolio/portfolio-2.png';
-import pf3 from '../assets/portfolio/portfolio-3.png';
-import pf4 from '../assets/portfolio/portfolio-4.png';
-import pf5 from '../assets/portfolio/portfolio-5.png';
-import pf6 from '../assets/portfolio/portfolio-6.png';
+import React from 'react'
+import { FaGithub } from 'react-icons/fa'
+import { TbWorld } from 'react-icons/tb'
+import pf1 from '../assets/portfolio/portfolio-1.png'
+import pf2 from '../assets/portfolio/portfolio-2.png'
+import pf3 from '../assets/portfolio/portfolio-3.png'
+import pf4 from '../assets/portfolio/portfolio-4.png'
+import pf5 from '../assets/portfolio/portfolio-5.png'
+import pf6 from '../assets/portfolio/portfolio-6.png'
 
 const Portfolio = () => {
   const portfolios = [
@@ -19,14 +19,14 @@ const Portfolio = () => {
     {
       id: 2,
       src: pf2,
-      demo: 'https://phieraditya.github.io/react-todo-list-app/',
-      code: 'https://github.com/phieraditya/react-todo-list-app',
+      demo: 'https://phieraditya.github.io/photo-gallery/',
+      code: 'https://github.com/phieraditya/photo-gallery',
     },
     {
       id: 3,
       src: pf3,
-      demo: 'https://phieraditya.github.io/react-yahtzee/',
-      code: 'https://github.com/phieraditya/react-yahtzee',
+      demo: 'https://phieraditya.github.io/react-todo-list-app/',
+      code: 'https://github.com/phieraditya/react-todo-list-app',
     },
     {
       id: 4,
@@ -46,7 +46,7 @@ const Portfolio = () => {
       demo: 'https://phieraditya.github.io/online-banking/',
       code: 'https://github.com/phieraditya/online-banking',
     },
-  ];
+  ]
 
   return (
     <div
@@ -86,7 +86,7 @@ const Portfolio = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Portfolio
