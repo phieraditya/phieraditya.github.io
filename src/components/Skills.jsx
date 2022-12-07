@@ -104,7 +104,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 text-center px-12 sm:px-0">
+        <div className="grid grid-cols-3 sm:grid-cols-4 gap-8 text-center px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div key={id} className="hover:scale-105 duration-500">
               <img src={src} alt={title} className="w-20 mx-auto" />
